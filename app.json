@@ -1,6 +1,6 @@
 {
-  "name": "FLASH-MD",
-  "description": "An easy and simple WhatsApp bot developed by France King",
+  "name": "GRACIE-MD",
+  "description": "An easy and simple WhatsApp bot developed by KENYAN King",
   "keywords": ["bot", "node", "baileys", "whatsapp"],
   "logo": "https://files.catbox.moe/nqgz89.jpg",
   "repository": "https://github.com/franceking1/Flash-Md",
@@ -10,12 +10,12 @@
   "env": {
     "PREFIX": {
       "description": "Set the prefix for bot commands. You can use multiple prefixes by separating them with commas. Example: '.', '#', '!'",
-      "value": ".",
+      "value": "@",
       "required": false
     },
     "AUTO_READ_MESSAGES": {
       "description": "Turn this 'on' if you want the bot to automatically read incoming messages. Use 'off' to disable it.",
-      "value": "off",
+      "value": "on",
       "required": false
     },
     "BLOCK_ALL": {
@@ -40,7 +40,7 @@
     },
     "AUTO_REACTION": {
       "description": "Automatically react to received messages. Set to 'on' to enable or 'off' to disable.",
-      "value": "off",
+      "value": "on",
       "required": false
     },
     "ANTI_DELETE": {
@@ -78,12 +78,12 @@
     },
     "OWNER_NAME": {
       "description": "Enter the name of the bot owner. This name will be displayed when required.",
-      "value": "France King",
+      "value": "ALVINO",
       "required": false
     },
     "OWNER_NUMBER": {
       "description": "Enter your phone number without the '+' sign. Use your country code (e.g., '254' for Kenya).",
-      "value": "254751284190",
+      "value": "254743624539",
       "required": false
     },
     "WARN_COUNT": {
@@ -93,7 +93,7 @@
     },
     "CHAT_BOT": {
       "description": "Set to 'on' if you want the bot to respond to user messages automatically. Use 'off' to disable auto-chatting.",
-      "value": "off",
+      "value": "on",
       "required": false
     },
     "STARTING_MESSAGE": {
@@ -103,7 +103,7 @@
     },
     "PRESENCE": {
       "description": "Choose how you want to appear to others: 'online' (always online), 'typing' (currently typing), 'recording' (currently recording audio), or leave blank for real-time presence.",
-      "value": "",
+      "value": "online",
       "required": false
     }
   },
